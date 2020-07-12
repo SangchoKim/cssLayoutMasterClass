@@ -17,8 +17,8 @@
 
 ## Grid:
 1. grid-template
-  - [x] grid-template-columns
-  - [x] grid-template-rows
+    - [x] grid-template-columns
+    - [x] grid-template-rows
 
 - [x] column-gap
 - [x] row-gap
