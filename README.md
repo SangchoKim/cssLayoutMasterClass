@@ -20,12 +20,15 @@
 - [x] grid-template-columns
 - [x] grid-template-rows
 
+
 - [x] column-gap
 - [x] row-gap
 - [x] gap
 
+
 - [x] grid-template-areas
 - [x] grid-template
+
 
 - [x] grid-column-start
 - [x] grid-column-end
@@ -34,17 +37,21 @@
 - [x] grid-column
 - [x] grid-row
 
+
 - [x] justify-items
 - [x] align-items
 - [x] place-items
+
 
 - [x] justify-content
 - [x] align-content
 - [x] place-content
 
+
 - [x] justify-self
 - [x] align-self
 - [x] place-self
+
 
 - [x] grid-auto-rows
 - [x] grid-auto-flow
