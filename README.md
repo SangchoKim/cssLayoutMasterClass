@@ -4,57 +4,52 @@
 
 ## Flexbox:
 
-- [x] flex-direction
-- [x] order
-- [x] justify-content
-- [x] align-items
-- [x] align-self
-- [x] flex-wrap
-- [x] align-content
-- [x] flex-grow
-- [x] flex-shrink
-- [x] flex-basis
+- flex-direction
+- order
+- justify-content
+- align-items
+- align-self
+- flex-wrap
+- align-content
+- flex-grow
+- flex-shrink
+- flex-basis
 
 ## Grid:
 1. grid-template
-    - [x] grid-template-columns
-    - [x] grid-template-rows
-
-- [x] column-gap
-- [x] row-gap
-- [x] gap
-
-
-- [x] grid-template-areas
-- [x] grid-template
-
-
-- [x] grid-column-start
-- [x] grid-column-end
-- [x] grid-row-start
-- [x] grid-row-end
-- [x] grid-column
-- [x] grid-row
-
-
-- [x] justify-items
-- [x] align-items
-- [x] place-items
-
-
-- [x] justify-content
-- [x] align-content
-- [x] place-content
-
-
-- [x] justify-self
-- [x] align-self
-- [x] place-self
-
-
-- [x] grid-auto-rows
-- [x] grid-auto-flow
-- [x] grid-auto-columns
+    - grid-template-columns
+    - grid-template-rows
+2. gap
+    - column-gap
+    - row-gap
+    - gap
+3. grid-template
+    - grid-template-areas
+    - grid-template
+4. grid-column
+    - grid-column-start
+    - grid-column-end
+    - grid-column
+5. grid-row
+    - grid-row-start
+    - grid-row-end
+    - grid-row
+6. items
+    - justify-items
+    - align-items
+    - place-items
+7. content
+    - justify-content
+    - align-content
+    - place-content
+8. self
+    - justify-self
+    - align-self
+    - place-self
+9. grid-auto
+    - grid-auto-rows
+    - grid-auto-flow
+    - grid-auto-columns
 
 ### Keywords & Functions:
 
