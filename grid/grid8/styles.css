@@ -1,0 +1,29 @@
+.grid {
+  background: gray;
+  color: white;
+  display: grid;
+  gap: 5px;
+  height: 250vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  justify-content: center;
+  align-content: center;
+  /* place-content: center center; */
+}
+
+.header {
+  background-color: #2ecc71;
+ 
+}
+.content {
+  background-color: #3498db;
+ 
+}
+.nav {
+  background-color: #8e44ad;
+
+}
+.footer {
+  background-color: #f39c12;
+
+}
