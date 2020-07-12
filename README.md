@@ -53,21 +53,21 @@
 
 ### Keywords & Functions:
 
-- [x] repeat
-- [x] fr
-- [x] minmax
-- [x] auto-fit
-- [x] auto-fill
-- [x] min-content
-- [x] max-content
+- repeat
+- fr
+- minmax
+- auto-fit
+- auto-fill
+- min-content
+- max-content
 
 ## SCSS:
 
-- [x] Variables
-- [x] Nesting
-- [x] Mixins
-- [x] Extend
-- [x] Responsive Mixins
+- Variables
+- Nesting
+- Mixins
+- Extend
+- Responsive Mixins
 
 ## To Clone:
 
