@@ -1,0 +1,11 @@
+@import "_buttons";
+
+a {
+  @extend %button;
+  text-decoration: none;
+}
+
+button {
+  @extend %button;
+  border: none;
+}

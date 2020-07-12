@@ -1,0 +1,22 @@
+h1 {
+  color: red;
+}
+
+@media screen and (min-width: 500px) and (max-width: 690px) {
+  h1 {
+    color: yellow;
+  }
+}
+
+@media screen and (max-width: 500px) and (max-width: 690px) and (orientation: landscape) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1120px) {
+  h1 {
+    color: green;
+  }
+}
+/*# sourceMappingURL=style.css.map */
