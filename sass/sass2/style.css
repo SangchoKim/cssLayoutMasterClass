@@ -1,0 +1,16 @@
+a {
+  margin-bottom: 10px;
+}
+
+a:nth-child(odd) {
+  text-decoration: none;
+  display: block;
+  color: green;
+}
+
+a:nth-child(even) {
+  text-decoration: none;
+  display: block;
+  color: blue;
+}
+/*# sourceMappingURL=style.css.map */
