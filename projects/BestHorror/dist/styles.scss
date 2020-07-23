@@ -25,7 +25,7 @@ header {
     top: 0;
     left: 0;
     padding: 0px 140px;
-    background white;
+    background-color: white;
     height: 70px;
     display: flex;
     align-items: center;
@@ -162,3 +162,49 @@ header {
     }
   }
       
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 410px);
+    .gallery__poster {
+      height: 100%;
+      cursor: pointer;
+      img {
+        max-width: 100%;
+        height: 100%;
+        transition: opacity 0.3s linear;
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 100px;
+    background-color: $bg;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 65px 0px;
+    .footer__column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      @extend %miniTitle;
+      .column__title {
+        margin-bottom: 50px;
+        opacity: 0.5;
+      }
+      ul {
+        text-align: center;
+        li {
+          margin-bottom: 15px;
+        }
+      }
+      &:nth-child(2) {
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+      }
+    }
+}
