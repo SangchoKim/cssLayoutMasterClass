@@ -1,0 +1,103 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  height: 50px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  font-size: 32px;
+  text-transform: lowercase;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 15px;
+}
+
+header nav ul:hover {
+  background-color: gainsboro;
+}
+
+header nav ul li {
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+header nav ul:first-child:hover li:not(:first-child) {
+  color: white !important;
+}
+
+header nav ul:first-child li:first-child {
+  margin-right: 120px;
+}
+
+header nav ul:first-child li:not(:first-child) {
+  color: gainsboro;
+  margin-right: 50px;
+}
+
+main {
+  margin-top: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+main article {
+  cursor: pointer;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 10fr 0.8fr;
+      grid-template-rows: 10fr 0.8fr;
+}
+
+main article img {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+main article div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+main article div h3 {
+  font-size: 14px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=styles.css.map */
