@@ -52,6 +52,18 @@ body nav ul li:last-child {
   background-color: #ffb301;
 }
 
+body nav ul li:hover {
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  -webkit-transform: translate(5px, 5px);
+          transform: translate(5px, 5px);
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+}
+
 h1,
 h2,
 h3,
@@ -189,13 +201,11 @@ main header .header__photo {
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  -ms-grid-rows: 33vh;
-      grid-template-rows: 33vh;
   gap: 60px;
 }
 
 .location .location__address {
-  font-size: 68px;
+  font-size: 48px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

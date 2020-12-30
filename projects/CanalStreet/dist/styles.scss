@@ -24,6 +24,7 @@ body {
         justify-content: center;
         align-items: center;
         font-size: 18px;
+
         span {
           transform: rotateZ(90deg);
         }
@@ -32,6 +33,13 @@ body {
         }
         &:last-child {
           background-color: #ffb301;
+        }
+        &:hover {
+          color: #fff;
+          background-color: #000;
+          cursor: pointer;
+          transform: translate(5px, 5px);
+          transition: transform 0.2s linear;
         }
       }
     }
@@ -145,10 +153,9 @@ main {
   padding: $paddingLeft;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 33vh;
   gap: 60px;
   .location__address {
-    font-size: 68px;
+    font-size: 48px;
     display: flex;
     justify-items: center;
     align-items: center;
