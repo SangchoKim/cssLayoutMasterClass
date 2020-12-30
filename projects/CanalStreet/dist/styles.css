@@ -103,8 +103,8 @@ main header .header__photo {
   height: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 650px 20%;
-      grid-template-rows: 650px 20%;
+  -ms-grid-rows: 650px;
+      grid-template-rows: 650px;
   gap: 30px;
 }
 
