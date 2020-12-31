@@ -13,6 +13,7 @@ body {
       grid-template-columns: 1.5fr 1.9fr 1.5fr;
   -ms-grid-rows: 1fr 5fr 1fr;
       grid-template-rows: 1fr 5fr 1fr;
+      grid-template-areas: "header header header" "main main main" "footer footer footer";
   gap: 1px;
 }
 
@@ -24,8 +25,12 @@ body > * {
 }
 
 body .menu {
-  -ms-grid-column: -2;
-      grid-column-start: -2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / span 1;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / span 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,21 +52,22 @@ body .menu:hover {
 
 body .center-image {
   -ms-grid-column: 2;
-  grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / span 1;
   -ms-grid-row: 2;
-  grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / span 1;
   background-image: url("https://images.unsplash.com/photo-1583309219338-a582f1f9ca6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1364&q=80");
   background-size: cover;
   background-position: center;
 }
 
 body .number__row {
-  background-color: #af7732;
+  background-color: white;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  gap: 1px;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
@@ -78,6 +84,7 @@ body .number__row .number {
       -ms-flex-align: center;
           align-items: center;
   background-color: white;
+  border: 1px solid #af7732;
   cursor: pointer;
   -webkit-transition: color 0.3s linear, background-color 0.3s linear;
   transition: color 0.3s linear, background-color 0.3s linear;
@@ -86,16 +93,26 @@ body .number__row .number {
 body .number__row .number:hover {
   background-color: #af7732;
   color: white;
+  -webkit-transform: translate(5px, 5px);
+          transform: translate(5px, 5px);
+  -webkit-transition: -webkit-transform 0.3s linear;
+  transition: -webkit-transform 0.3s linear;
+  transition: transform 0.3s linear;
+  transition: transform 0.3s linear, -webkit-transform 0.3s linear;
 }
 
 body .scrolling__text {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 3;
+  grid-row: 3;
   white-space: nowrap;
   overflow: hidden;
 }
 
 body .scrolling__text span {
-  -webkit-animation: scrollText 3s linear infinite forwards;
-          animation: scrollText 3s linear infinite forwards;
+  -webkit-animation: scrollText 0.3s linear infinite forwards;
+          animation: scrollText 0.3s linear infinite forwards;
 }
 
 @-webkit-keyframes scrollText {
