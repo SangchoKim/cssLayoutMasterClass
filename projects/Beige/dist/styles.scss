@@ -74,6 +74,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 55vh;
+  padding-top: 10vh;
   .post {
     cursor: pointer;
     padding: 20px;
@@ -82,7 +83,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-
     .post__header,
     footer {
       display: flex;
