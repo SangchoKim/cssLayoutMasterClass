@@ -71,9 +71,6 @@ header nav ul {
 }
 
 header nav ul li {
-  -webkit-transition: transform(300 ms) ease, transform(300 ms) ease;
-  transition: transform(300 ms) ease, transform(300 ms) ease;
-  transition: transform(300 ms) ease;
   cursor: pointer;
   margin-right: 12px;
   font-size: 20px;
